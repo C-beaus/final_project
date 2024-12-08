@@ -10,4 +10,4 @@ DPT
 ultralytics_output
 fixed_depth
 models
-dataset/depth
+dataset/depth/train
