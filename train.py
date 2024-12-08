@@ -25,8 +25,8 @@ if __name__ == '__main__':
         lr0=0.005,
         lrf=0.1,
         dropout=0.001,
-        val = True
-        # resume=True # check if this is the right parameter to set to True
+        val = True,
+        resume=True # check if this is the right parameter to set to True
     )
 
     # Val
