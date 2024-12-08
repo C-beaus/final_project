@@ -7,8 +7,8 @@ import torch
 
 if __name__ == '__main__':
     # Load a model
-    model = YOLO("yolo11n.pt")
-    # model = YOLO("ultralytics_output/second_attempt3/weights/last.pt")
+    # model = YOLO("yolo11n.pt")
+    model = YOLO("ultralytics_output/third_attempt/weights/last.pt")
     # model = YOLO("yolo11s.pt") # to try, should give better accuracy but slower
     dev = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Cuda? {torch.cuda.is_available()} and {dev}")
